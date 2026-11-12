@@ -5,7 +5,7 @@
     display: block
     width: 100%
     text-align: left
-    background-color: $color-sistema-e
+    background-color: $color-secundario-10
     padding: 15px 20px
     border-radius: 5px
     color: $color-sistema-a
@@ -72,13 +72,14 @@
   &.color-acento-botones
     .tabs-a__tab
       &:hover, &:active, &:focus
-        background-color: $color-acento-botones
-        color: textColor($color-acento-botones)
+        background-color: $color-acento-botones-10
+        color: textColor($color-acento-botones-10)
       &__selected
-        background-color: $color-acento-botones
-        color: textColor($color-acento-botones)
+        color: $color-sistema-a
+        background-color: $color-acento-botones-10
+        color: textColor($color-acento-botones-10)
         &:before
-          background-color: $color-acento-botones
+          background-color: $color-acento-botones-10
 
 @keyframes tab-content-active
   0%

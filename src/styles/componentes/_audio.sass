@@ -34,12 +34,21 @@
     .spinner-border
       border-color: $color-secundario
   &.color-acento-contenido
+    background-color: $white !important
+    border-color: $color-sistema-texto !important
+    color: $color-sistema-texto !important
     .audio__btn
-      background-color: $color-acento-contenido
+      background-color: $color-acento-botones !important
+      color: $color-sistema-texto !important
       &:hover
-        background-color: color.adjust($color-acento-contenido, $lightness: -10%)
+        background-color: $color-acento-botones
+    .audio__btn
+      margin-bottom: 3rem !important
     .spinner-border
-      border-color: $color-acento-contenido
+      border-color: $color-acento-botones
+    .tarjeta-audio__texto
+      color: $color-sistema-texto !important
+      margin-bottom: 1rem !important
   &.color-acento-botones
     .audio__btn
       background-color: $color-acento-botones
@@ -55,6 +64,7 @@
     .spinner-border
       border-color: $color-adicional-1
   &.color-adicional-2
+    background-color: $white
     .audio__btn
       background-color: $color-adicional-2
       &:hover

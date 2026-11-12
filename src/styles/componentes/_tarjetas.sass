@@ -24,11 +24,57 @@
   &--azul
     background-color: $color-sistema-e
 
-  &--boton
+  &--adicional-1
+    background-color: $color-adicional-1
+
+  &--fondo-img-01
+    color: $color-sistema-texto !important
+    background-image: url(../assets/curso/tema3/img_11.png) !important
     border-radius: 20px
-    background-color: $color-sistema-h
-    cursor: pointer
-    transition: background-color 0.3s ease-in-out
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    *
+      color: textColor($color-sistema-h)
+    @media screen and (max-width: $bp-min-md)
+      background-image: url(../assets/curso/tema3/img_12.png) !important
+
+  &--fondo-img-02
+    color: $color-sistema-texto !important
+    background-image: url(../assets/curso/tema5/img_3.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    *
+      color: textColor($color-sistema-h)
+    @media screen and (max-width: $bp-min-md)
+      background-color: $color-primario-5
+      background-image: none !important
+  &--fondo-img-03
+    color: $color-sistema-texto !important
+    background-image: url(../assets/curso/tema6/img_3.png) !important
+    border-radius: 20px
+    position: relative
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    *
+      color: textColor($color-sistema-h)
+    @media screen and (max-width: $bp-min-md)
+      background-color: $color-primario-5
+      background-image: none !important
 
     &.color-primario
       &:active, &:focus, &:hover
@@ -51,6 +97,84 @@
         *
           color: textColor($color-acento-botones)
 
+  //Tarjeta bg-img
+  &--bg-img
+    overflow: hidden
+    figure
+      margin: 0
+      height: 100%
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+        object-position: center
+        display: block
+
+    &.color-primario
+      background-color: $color-primario
+      *
+        color: textColor($color-primario)
+      &--borde
+        background-color: color.adjust($color-primario, $lightness: 50%)
+        color: textColor(color.adjust($color-primario, $lightness: 50%))
+        border: solid 4px $color-primario
+    &.color-primario-10
+      background-color: $color-primario-10
+      *
+        color: textColor($color-primario-10)
+      &--borde
+        background-color: color.adjust($color-primario-10, $lightness: 50%)
+        color: textColor(color.adjust($color-primario-10, $lightness: 50%))
+        border: solid 4px $color-primario-10
+    &.color-secundario
+      background-color: $color-secundario
+      *
+        color: textColor($color-secundario)
+      &--borde
+        background-color: color.adjust($color-secundario, $lightness: 50%)
+        color: textColor(color.adjust($color-secundario, $lightness: 50%))
+        border: solid 4px $color-secundario
+    &.color-secundario-10
+      background-color: $color-secundario-10
+      *
+        color: textColor($color-secundario-10)
+      &--borde
+        background-color: color.adjust($color-secundario-10, $lightness: 50%)
+        color: textColor(color.adjust($color-secundario-10, $lightness: 50%))
+        border: solid 4px $color-secundario-10
+    &.color-terciario
+      background-color: $color-terciario
+      *
+        color: textColor($color-terciario)
+      &--borde
+        background-color: color.adjust($color-terciario, $lightness: 50%)
+        color: textColor(color.adjust($color-terciario, $lightness: 50%))
+        border: solid 4px $color-terciario
+    &.color-acento-contenido
+      background-color: $color-acento-contenido
+      *
+        color: textColor($color-acento-contenido)
+      &--borde
+        background-color: color.adjust($color-acento-contenido, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-contenido, $lightness: 50%))
+        border: solid 4px $color-acento-contenido
+    &.color-acento-contenido-5
+      background-color: $color-acento-contenido-5
+      *
+        color: textColor($color-acento-contenido-5)
+      &--borde
+        background-color: color.adjust($color-acento-contenido-5, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-contenido-5, $lightness: 50%))
+        border: solid 4px $color-acento-contenido-5
+    &.color-acento-botones
+      background-color: $color-acento-botones
+      *
+        color: textColor($color-acento-botones)
+      &--borde
+        background-color: color.adjust($color-acento-botones, $lightness: 50%)
+        color: textColor(color.adjust($color-acento-botones, $lightness: 50%))
+        border: solid 4px $color-acento-botones
+
   &--tabla
     background-color: $color-sistema-e
     &:nth-child(even)
@@ -64,14 +188,62 @@
       background-color: color.adjust($color-primario, $lightness: 50%)
       color: textColor(color.adjust($color-primario, $lightness: 50%))
       border: solid 4px $color-primario
+  &.color-primario-5
+    background-color: $color-primario-5
+    *
+      color: textColor($color-primario-5)
+    &--borde
+      background-color: color.adjust($color-primario-5, $lightness: 50%)
+      color: textColor(color.adjust($color-primario-5, $lightness: 50%))
+      border: solid 4px $color-primario-5
+  &.color-primario-10
+    background-color: $color-primario-10
+    *
+      color: textColor($color-primario-10)
+    &--borde
+      background-color: color.adjust($color-primario-10, $lightness: 50%)
+      color: textColor(color.adjust($color-primario-10, $lightness: 50%))
+      border: solid 4px $color-primario-10
   &.color-secundario
     background-color: $color-secundario
     *
       color: textColor($color-secundario)
     &--borde
-      background-color: color.adjust($color-secundario, $lightness: 50%)
+      background-color: $color-secundario-5
       color: textColor(color.adjust($color-secundario, $lightness: 50%))
       border: solid 4px $color-secundario
+  &.color-secundario-5
+    background-color: $color-secundario-5
+    *
+      color: textColor($color-secundario-5)
+    &--borde
+      background-color: $color-secundario-5
+      color: textColor(color.adjust($color-secundario-5, $lightness: 50%))
+      border: solid 4px $color-secundario-5
+  &.color-secundario-10
+    background-color: $color-secundario-10
+    *
+      color: textColor($color-secundario-10)
+    &--borde
+      background-color: color.adjust($color-secundario-10, $lightness: 50%)
+      color: textColor(color.adjust($color-secundario-10, $lightness: 50%))
+      border: solid 4px $color-secundario-10
+  &.color-terciario
+    background-color: $color-terciario
+    *
+      color: textColor($color-terciario)
+    &--borde
+      background-color: color.adjust($color-terciario, $lightness: 50%)
+      color: textColor(color.adjust($color-terciario, $lightness: 50%))
+      border: solid 4px $color-terciario
+  &.color-terciario-10
+    background-color: $color-terciario-10
+    *
+      color: textColor($color-terciario-10)
+    &--borde
+      background-color: color.adjust($color-terciario-10, $lightness: 50%)
+      color: textColor(color.adjust($color-terciario-10, $lightness: 50%))
+      border: solid 4px $color-terciario-10
   &.color-acento-contenido
     background-color: $color-acento-contenido
     *
@@ -80,6 +252,14 @@
       background-color: color.adjust($color-acento-contenido, $lightness: 50%)
       color: textColor(color.adjust($color-acento-contenido, $lightness: 50%))
       border: solid 4px $color-acento-contenido
+  &.color-acento-contenido-5
+    background-color: $color-acento-contenido-5
+    *
+      color: textColor($color-acento-contenido-5)
+    &--borde
+      background-color: color.adjust($color-acento-contenido-5, $lightness: 50%)
+      color: textColor(color.adjust($color-acento-contenido-5, $lightness: 50%))
+      border: solid 4px $color-acento-contenido-5
   &.color-acento-botones
     background-color: $color-acento-botones
     *
@@ -88,6 +268,30 @@
       background-color: color.adjust($color-acento-botones, $lightness: 50%)
       color: textColor(color.adjust($color-acento-botones, $lightness: 50%))
       border: solid 4px $color-acento-botones
+  &.color-acento-botones-10
+    background-color: $color-acento-botones-10
+    *
+      color: textColor($color-acento-botones-10)
+    &--borde
+      background-color: color.adjust($color-acento-botones-10, $lightness: 50%)
+      color: textColor(color.adjust($color-acento-botones-10, $lightness: 50%))
+      border: solid 4px $color-acento-botones-10
+  &.color-adicional-1
+    background-color: $color-adicional-1
+    *
+      color: textColor($color-adicional-1)
+    &--borde
+      background-color: color.adjust($color-adicional-1, $lightness: 50%)
+      color: textColor(color.adjust($color-adicional-1, $lightness: 50%))
+      border: solid 4px $color-adicional-1
+  &.color-adicional-2
+    background-color: $color-adicional-2
+    *
+      color: textColor($color-adicional-2)
+    &--borde
+      background-color: color.adjust($color-adicional-2, $lightness: 50%)
+      color: textColor(color.adjust($color-adicional-2, $lightness: 50%))
+      border: solid 4px $color-adicional-2
 
 // TARJETAS CON AVATAR
 .tarjeta-avatar
@@ -130,12 +334,12 @@
   margin-left: 30px
   &__numero
     border-radius: 60px
-    width: 60px
-    height: 60px
+    width: 85px
+    height: 85px
     display: inline-block
     position: absolute  
     left: 0
-    top: 25px
+    top: 20px
     transform: translateX(-50%)
     div
       position: absolute
@@ -151,8 +355,8 @@
         color: textColor($color-primario)
   &.color-secundario
     border-color: $color-secundario
+    background-color: $color-secundario-5
     .tarjeta-numerada__numero
-      background-color: $color-secundario
       div
         color: textColor($color-secundario)
   &.color-acento-contenido
@@ -190,8 +394,8 @@
       transform: rotateY(180deg)
 
   &__img, &__contenido
-    -webkit-backface-visibility: hidden
-    backface-visibility: hidden
+    -webkit-backface-5isibility: hidden
+    backface-5isibility: hidden
   &__img
     position: absolute
     inset: 0
@@ -226,7 +430,6 @@
       background-color: $color-acento-botones
       color: textColor($color-acento-botones)
 
-
 .tarjeta-slide
   height: 100%
   position: relative
@@ -238,7 +441,6 @@
     background-position: center
     transform: translate(0,0)
     transition: transform 0.3s ease-in-out
-  
 
   &.arriba
     &:hover
