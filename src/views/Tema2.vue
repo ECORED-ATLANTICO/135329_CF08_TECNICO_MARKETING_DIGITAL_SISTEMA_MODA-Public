@@ -21,8 +21,17 @@
         .h2(data-aos="fade-right") 2.1 Calzado: componentes, materiales y procesos
       .mb-0 
       
+      .bloque-texto-g.color-secundario-20.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema2/img_12.png')})`}"
+          role="img"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 El calzado protege y cubre los pies, acompaña el movimiento y complementa el vestuario. Su diseño combina componentes y materiales según el uso previsto. Entre sus tipologías se encuentran zapatos, botas, sandalias, alpargatas y zapatillas. 
+          p.mb-0 A continuación, se presenta una tabla comparativa que incluye las características generales del calzado.
+
       .cajon.color-secundario.p-4.mb-4(data-aos="zoom-in-right")
-        p.mb-0 El calzado protege y cubre los pies, acompaña el movimiento y complementa el vestuario. Su diseño combina componentes y materiales según el uso previsto. Entre sus tipologías se encuentran zapatos, botas, sandalias, alpargatas y zapatillas. A continuación, se presenta una tabla comparativa que incluye las características generales del calzado.
+        
 
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10.mb-0
@@ -76,8 +85,8 @@
     .tarjeta.color-terciario-10.p-3.px-5.mb-5
       p.mb-0 La marroquinería comprende la elaboración de artículos como bolsos, billeteras, cinturones y maletines, tradicionalmente asociados con el trabajo del cuero. En la oferta comercial también se encuentran productos de funciones semejantes elaborados con textiles, materiales sintéticos y combinaciones de componentes.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-12.col-md-6.col-xl.mb-4.mb-xl-0
+    .row.justify-content-center.align-items-start.mb-5
+      .col-12.col-md-10.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             img(src='@/assets/curso/tema2/img_3.png', class="img-fluid")
@@ -85,7 +94,7 @@
             b Productos y funciones
           p.mb-0 Los bolsos y maletines permiten transportar objetos; las billeteras organizan documentos y medios de pago; los cinturones contribuyen al ajuste de las prendas y complementan el vestuario.
           p.mb-3 Su clasificación puede considerar el tamaño, la capacidad, la forma de apertura, los compartimientos y la manera de llevarlos: de mano, al hombro, cruzados o sobre la espalda.
-      .col-12.col-md-6.col-xl.mb-4.mb-xl-0
+      .col-12.col-md-10.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             img(src='@/assets/curso/tema2/img_4.png', class="img-fluid")
@@ -93,7 +102,7 @@
             b Materiales y componentes
           p.mb-0 Estos artículos pueden integrar material exterior, forro, refuerzos, hilos, adhesivos y herrajes. Los herrajes incluyen elementos como hebillas, argollas, remaches y mosquetones.
           p.mb-3 La información comercial debe precisar la composición de las partes principales. Si se emplean materiales recubiertos o mezclas, su descripción debe corresponder con la información técnica disponible.
-      .col-12.col-md-6.col-xl.mb-4.mb-xl-0
+      .col-12.col-md-10.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             img(src='@/assets/curso/tema2/img_5.png', class="img-fluid")

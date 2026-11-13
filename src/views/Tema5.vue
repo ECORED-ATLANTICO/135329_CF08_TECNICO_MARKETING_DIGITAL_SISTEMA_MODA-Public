@@ -24,14 +24,22 @@
         .h2(data-aos="fade-right") 5.1 Estructura corporal y su relación con el vestuario
       .mb-0 
 
+      .bloque-texto-g.color-secundario-20.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema5/img_15.png')})`}"
+          role="img"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Para desarrollar y describir prendas es necesario reconocer zonas del cuerpo y puntos de referencia, como hombros, pecho, cintura y cadera. También se debe considerar cómo cambia la relación entre cuerpo y vestuario al caminar, sentarse o levantar los brazos.
+
       .tarjeta.tarjeta--fondo-img-02.py-4.px-4.px-xl-0.h-100.w-100(data-aos="zoom-in-right")
         .row.align-items-center
           .col-12.col-xl-10.m-2.py-0.py-lg-3
-            p.mb-0 Para desarrollar y describir prendas es necesario reconocer zonas del cuerpo y puntos de referencia, como hombros, pecho, cintura y cadera. También se debe considerar cómo cambia la relación entre cuerpo y vestuario al caminar, sentarse o levantar los brazos.
+            
           .col-8.col-xl-1.m-0.p-0.d-none.d-xl-block.mb-0
 
     .row.justify-content-center.cursor-pointer.mb-5
-      .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-lg-3(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -40,7 +48,7 @@
             h4.mb-3 Anatomía y morfología
             p.mb-0 La anatomía estudia las estructuras del cuerpo y sus relaciones. La morfología corporal permite reconocer formas y proporciones.
             p.mb-3 En vestuario, estos conocimientos ayudan a identificar zonas que la prenda cubre, rodea o utiliza como apoyo. Dos personas de igual estatura pueden tener diferentes largos de torso, brazos o piernas.
-      .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-lg-3(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -49,7 +57,7 @@
             h4.mb-3 Biomecánica y ergonomía
             p.mb-0 La biomecánica estudia el movimiento y el comportamiento mecánico del cuerpo. La ergonomía considera la relación entre las personas, sus actividades y los productos que utilizan.
             p.mb-3 Su aplicación al vestuario permite analizar si una prenda facilita los movimientos previstos y si sus cierres, bolsillos o ajustes resultan accesibles durante el uso.
-      .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-lg-3(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure

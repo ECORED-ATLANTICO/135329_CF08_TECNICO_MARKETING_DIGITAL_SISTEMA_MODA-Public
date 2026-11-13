@@ -21,11 +21,15 @@
         .h2(data-aos="fade-right") 6.1 Planeación del lanzamiento
       .mb-0 
 
-      .tarjeta.tarjeta--fondo-img-03.py-4.px-4.px-xl-0.h-100.w-100(data-aos="zoom-in-right")
-        .row.align-items-center
-          .col-12.col-xl-9.m-2
+      .row.justify-content-center.align-items-center.mb-5
+        .col-8.col-lg-4
+          figure
+            img(src="@/assets/curso/tema6/img_13.png", class="img-fluid")     
+        .col-12.col-lg-8
+          .tarjeta.color-primario-5.p-3.px-5.mb-3
             p.mb-0 La planeación define a quién se dirige el producto, qué se espera lograr y cómo se ejecutarán las acciones. Incluye la revisión del mercado, las pruebas del producto y la organización de recursos y responsables.
-          .col-8.col-xl-2.m-0.p-0.d-none.d-xl-block.mb-0
+          
+      
       .row.justify-content-center.align-items-center.mb-5
         .col-12.col-lg-10.mb-0
           .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")

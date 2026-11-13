@@ -20,12 +20,17 @@
       #t_1_1.titulo-segundo.color-acento-contenido
         .h2(data-aos="fade-right") 1.1 Atributos interiores, exteriores y simbólicos
       .mb-0 
-
-      .cajon.color-secundario.p-4.mb-5(data-aos="zoom-in-right")
-        p.mb-0 Los atributos son características que permiten identificar y diferenciar un producto. Su análisis comprende tanto los elementos físicos como su presentación y las asociaciones que genera en el consumidor. A continuación, se describen las tres dimensiones del producto de moda:
-
+      
+      .bloque-texto-g.color-secundario-20.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in-right")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema1/img_14.png')})`}"
+          role="img"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Los atributos son características que permiten identificar y diferenciar un producto. Su análisis comprende tanto los elementos físicos como su presentación y las asociaciones que genera en el consumidor. A continuación, se describen las tres dimensiones del producto de moda:
+     
     .row.justify-content-center.cursor-pointer.mb-5
-      .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-lg-4(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -34,7 +39,7 @@
             h4.mb-3 1. Atributos interiores
             p.mb-3 Son las características propias del producto: composición, materiales, construcción, diseño, acabados, dimensiones y ajuste. Permiten explicar cómo está elaborado y qué condiciones ofrece para su utilización.
             p.mb-3 #[strong Ejemplo aplicado:] una empresa de moda describe una camisa mediante la composición del tejido, el tipo de cuello, la manga, las costuras y las medidas. Estos datos ayudan al consumidor a conocer la prenda antes de comprarla.
-      .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-lg-4(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
@@ -43,7 +48,7 @@
             h4.mb-3 2. Atributos exteriores
             p.mb-3 Son los elementos que acompañan la presentación, identificación y entrega del producto, como las etiquetas, el empaque y el embalaje. Además de protegerlo o identificarlo, pueden comunicar información necesaria para su uso y cuidado.
             p.mb-3 #[strong Ejemplo aplicado:] una camisa incorpora una etiqueta con su composición y recomendaciones de lavado. El empaque permite entregarla protegida, mientras que la referencia facilita identificarla dentro del catálogo de la empresa.
-      .col-lg-4.col-md-9.col-11.mb-4.mb-lg-0(data-aos="zoom-in-right")
+      .col-xl-4.col-lg-6.col-md-9.col-11.mb-4.mb-lg-(data-aos="zoom-in-right")
         .crd_hover_txt
           .crd_hover_txt--img
             figure

@@ -230,14 +230,161 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Amplitud',
+      significado:
+        'Cantidad de líneas que conforman la mezcla de productos de una empresa.',
+    },
+    {
+      termino: 'Antropometría',
+      significado:
+        'Estudio de las dimensiones y proporciones del cuerpo humano mediante procedimientos de medición.',
+    },
+    {
+      termino: 'Aparado',
+      significado:
+        'Operación de unión de las piezas que conforman el corte o parte superior del calzado.',
+    },
+    {
+      termino: 'Atributo',
+      significado:
+        'Característica física, de presentación o simbólica que permite identificar y diferenciar un producto.',
+    },
+    {
+      termino: 'Ciclo de vida comercial',
+      significado:
+        'Modelo que permite analizar la evolución de un producto en el mercado mediante etapas como introducción, crecimiento, madurez y declive.',
+    },
+    {
+      termino: 'Colección',
+      significado:
+        'Conjunto de productos relacionados por una propuesta de diseño, un público y determinadas ocasiones de uso.',
+    },
+    {
+      termino: 'Control de calidad',
+      significado:
+        'Conjunto de verificaciones que permite comprobar la correspondencia entre el producto y las especificaciones establecidas.',
+    },
+    {
+      termino: 'Cuadro de tallas',
+      significado:
+        'Tabla que relaciona denominaciones de talla con medidas o rangos, indicando si corresponden al cuerpo o a la prenda.',
+    },
+    {
+      termino: 'Ficha técnica',
+      significado:
+        'Documento que reúne las especificaciones de materiales, medidas, construcción y calidad necesarias para desarrollar y producir un modelo.',
+    },
+    {
+      termino: 'Holgura',
+      significado:
+        'Diferencia prevista entre las medidas de una prenda y las del cuerpo, según el diseño, el material y el uso.',
+    },
+    {
+      termino: 'Lanzamiento',
+      significado:
+        'Proceso de presentación de un producto al mercado que coordina comunicación, disponibilidad, comercialización y seguimiento.',
+    },
+    {
+      termino: 'Línea de productos',
+      significado:
+        'Grupo de productos relacionados por su función, público, características u otros criterios definidos por la empresa.',
+    },
+    {
+      termino: 'Longitud',
+      significado:
+        'Total de productos que integran una mezcla, calculado según una unidad de conteo definida, como modelos o referencias.',
+    },
+    {
+      termino: 'Marroquinería',
+      significado:
+        'Actividad de elaboración de artículos como bolsos, billeteras y cinturones, tradicionalmente vinculada con el trabajo del cuero.',
+    },
+    {
+      termino: 'Mezcla de productos',
+      significado:
+        'Conjunto de líneas y productos que una empresa ofrece al mercado; también se denomina portafolio o cartera.',
+    },
+    {
+      termino: 'Patronaje',
+      significado:
+        'Proceso de elaboración de patrones que definen las piezas y dimensiones necesarias para construir una prenda.',
+    },
+    {
+      termino: 'Profundidad',
+      significado:
+        'Variedad de versiones disponibles de un producto, como opciones de talla, color o material.',
+    },
+    {
+      termino: 'Propuesta de valor',
+      significado:
+        'Expresión de lo que ofrece un producto, a quién resulta útil y qué beneficios puede aportar mediante características y servicios comprobables.',
+    },
+    {
+      termino: 'Prototipo',
+      significado:
+        'Versión de prueba de un producto utilizada para evaluar su construcción, dimensiones, ajuste y funcionamiento.',
+    },
+    {
+      termino: 'Variante',
+      significado:
+        'Opción específica de un modelo que se diferencia por características como talla, color o material.',
     },
   ],
   referencias: [
     {
-      referencia: 'REF',
-      link: 'LINK',
+      referencia:
+        'Arnolfo, M. F., Valletta, F. B., Zárate, L. C., Ferraro, L. M., Urdiró, V., & Acosta Seró, O. (2026). Indumentaria del mercado <em>online</em> argentino durante 2025: Relación con la Ley de Talles de la Ciudad de Buenos Aires y medidas antropométricas nacionales. SALUD pública: Revista del Ministerio de Salud de la Provincia de Buenos Aires, 5.',
+      link: 'https://saludpublica.ms.gba.gov.ar/index.php/revista/article/view/546',
+    },
+    {
+      referencia:
+        'Campines Barría, F. J. (2024). El producto y sus atributos como factores fundamentales de las estrategias de <em>marketing</em>. Ciencia Latina Revista Científica Multidisciplinar, 8(1), 1239-1252.',
+      link: 'https://doi.org/10.37811/cl_rcm.v8i1.9511',
+    },
+    {
+      referencia:
+        'Hotmart. (2024, 15 de marzo). Mezcla de productos: cómo sacarle partido a esta estrategia.',
+      link: 'https://hotmart.com/es/blog/que-es-mezcla-de-productos-ejemplos',
+    },
+    {
+      referencia:
+        'INESCOP. (2024). Informe del estado del arte sobre ensamblado y formas de reciclaje de calzado [Entregable E.2.1 del proyecto DIS4REC].',
+      link: 'https://www.inescop.es/images/Proyectos/Regionales/2024/DIS4REC/E2.1_Estado_del_arte_sobre_desensamblado_y_reciclaje_de_calzado.pdf',
+    },
+    {
+      referencia:
+        'Observatorio del Sector Textil y Moda. (2024). Informe 2023–24 de circularidad textil y moda.',
+      link: 'https://observatoriotextilymoda.es/wp-content/uploads/2024/10/Informe_Observatorio-Textil-y-Moda-2024.pdf',
+    },
+    {
+      referencia:
+        'Pursell, S. (2025, 14 de noviembre). 10 estrategias para un lanzamiento de producto exitoso. HubSpot.',
+      link: 'https://blog.hubspot.es/marketing/lanzamiento-de-producto',
+    },
+    {
+      referencia:
+        'Redacción Emprendedores. (2025, 4 de junio). ¿Qué es una cartera de productos? Ventajas, ejemplos y cómo definirlas. Emprendedores.',
+      link: 'https://emprendedores.es/gestion/que-es-cartera-de-productos/',
+    },
+    {
+      referencia:
+        'Shopify. (2024, 26 de noviembre). Ciclo de vida del producto: Definición, etapas y ejemplos.',
+      link: 'https://www.shopify.com/es/blog/ciclo-de-vida-del-producto',
+    },
+    {
+      referencia:
+        'Valero Zorraquino, J., Nacher Fernández, B., Alemany Mut, S., Gil Mora, S., & González García, J. C. (2024). Aplicación de <em>Big Data</em> antropométrico para la mejora del proceso de diseño y venta de indumentaria. Revista de Biomecánica, (71).',
+      link: 'https://www.ibv.org/actualidad/aplicacion-de-big-data-antropometrico-para-la-mejora-del-proceso-de-diseno-y-venta-de-indumentaria/',
+    },
+    {
+      referencia:
+        'Vásquez Velásquez, L. M. (2026). Cartilla de montaje colección de vestuario. Servicio Nacional de Aprendizaje, Centro de Formación en Diseño, Confección y Moda.',
+      link: 'https://repositorio.sena.edu.co/handle/11404/8775',
+    },
+    {
+      referencia:
+        'Velásquez Restrepo, S. M., Giraldo Vásquez, D. H., & Gaviria Londoño, F. A. (2024). Diseño, confección y moda en Colombia: Una compilación de retos y oportunidades derivados de la clasificación única de ocupaciones. Servicio Nacional de Aprendizaje; Universidad de Antioquia.',
+      link: 'https://repositorio.sena.edu.co/handle/11404/8428',
     },
   ],
   creditos: [
